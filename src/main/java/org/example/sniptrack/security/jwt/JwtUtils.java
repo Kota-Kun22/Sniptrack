@@ -7,7 +7,6 @@ import io.jsonwebtoken.security.Keys;
 import jakarta.servlet.http.HttpServletRequest;
 
 import org.example.sniptrack.service.UserDetailsImpl;
-import org.hibernate.annotations.Comment;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
