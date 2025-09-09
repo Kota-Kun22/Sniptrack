@@ -29,6 +29,11 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             HttpServletResponse response,
             FilterChain filterChain) throws ServletException, IOException
     {
+//        String path = request.getServletPath();
+//        if (path.startsWith("/api/auth/public")) {
+//            filterChain.doFilter(request, response);
+//            return; // Skip JWT check for login/register
+//        }
         //Get the Jwt From Header
         //Validate the Jwt
         //If valid then i am getting the User Details

@@ -45,8 +45,9 @@ public class UserDetailsImpl implements UserDetails {
                 Collections.singletonList(authority),
                 user.getId(),
                 user.getUsername(),
-                user.getEmail(),
-                user.getPassword()
+                user.getPassword(),
+                user.getEmail()
+
         );
     }
     @Override
